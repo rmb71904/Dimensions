@@ -1,5 +1,6 @@
 extends Node
 
+
 var loadouts = {
 	'loadout1': {'Primary': "res://weapons/ars/AK74.tscn", 'PrimaryName': "AK-74", 'Secondary': 'res://weapons/handguns/92FS.tscn', 'SecondaryName': '92FS'},
 	'loadout2': {'Primary': "res://weapons/ars/AK74.tscn", 'PrimaryName': "AK-74", 'Secondary': 'res://weapons/handguns/92FS.tscn', 'SecondaryName': '92FS'},
@@ -23,7 +24,12 @@ var loadouts = {
 	'loadout20': {'Primary': "res://weapons/ars/AK74.tscn", 'PrimaryName': "AK-74", 'Secondary': 'res://weapons/handguns/92FS.tscn', 'SecondaryName': '92FS'}
 }
 
+func _ready():
+	load_loadouts()
+	current_loadout = loadouts["loadout1"]
+
 var current_loadout = loadouts["loadout1"]
+
 
 func save_loadouts():
 	var save_file = File.new()

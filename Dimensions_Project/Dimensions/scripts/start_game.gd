@@ -1,10 +1,7 @@
 extends Control
 
 
-
-
 func _on_loadouts_pressed():
-	Loadout.load_loadouts()
 	get_tree().change_scene("res://menus/loadouts.tscn")
 
 

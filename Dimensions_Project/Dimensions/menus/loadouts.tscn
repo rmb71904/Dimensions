@@ -1,4 +1,4 @@
-[gd_scene load_steps=13 format=2]
+[gd_scene load_steps=26 format=2]
 
 [ext_resource path="res://assets/ui/fonts/PressStart2P-Regular.ttf" type="DynamicFontData" id=1]
 [ext_resource path="res://scripts/loadout_menu.gd" type="Script" id=2]
@@ -11,6 +11,19 @@
 [ext_resource path="res://scripts/Ability.gd" type="Script" id=9]
 [ext_resource path="res://scripts/Tactical.gd" type="Script" id=10]
 [ext_resource path="res://scripts/Lethal.gd" type="Script" id=11]
+[ext_resource path="res://menus/VBoxContainer.gd" type="Script" id=12]
+[ext_resource path="res://menus/VBoxContainer3.gd" type="Script" id=13]
+[ext_resource path="res://menus/VBoxContainer2.gd" type="Script" id=14]
+[ext_resource path="res://menus/VBoxContainer5.gd" type="Script" id=15]
+[ext_resource path="res://menus/VBoxContainer4.gd" type="Script" id=16]
+[ext_resource path="res://menus/VBoxContainer7.gd" type="Script" id=17]
+[ext_resource path="res://menus/VBoxContainer9.gd" type="Script" id=18]
+[ext_resource path="res://menus/VBoxContainer6.gd" type="Script" id=19]
+[ext_resource path="res://menus/VBoxContainer8.gd" type="Script" id=20]
+[ext_resource path="res://menus/VBoxContainer10.gd" type="Script" id=21]
+[ext_resource path="res://menus/VBoxContainer1.gd" type="Script" id=22]
+[ext_resource path="res://menus/VBoxContainer11.gd" type="Script" id=23]
+[ext_resource path="res://menus/VBoxContainer12.gd" type="Script" id=24]
 
 [sub_resource type="DynamicFont" id=1]
 size = 30
@@ -20,6 +33,9 @@ font_data = ExtResource( 1 )
 anchor_right = 1.0
 anchor_bottom = 1.0
 script = ExtResource( 2 )
+__meta__ = {
+"_edit_horizontal_guides_": [  ]
+}
 
 [node name="Loadouts" type="ScrollContainer" parent="."]
 margin_right = 324.0
@@ -433,90 +449,15 @@ margin_right = -4.0
 margin_bottom = -4.0
 
 [node name="ScrollContainer" type="ScrollContainer" parent="Primaries/TabContainer/Assault Rifles"]
-margin_right = 270.0
-margin_bottom = 340.0
-rect_min_size = Vector2( 270, 340 )
+margin_right = 200.0
+margin_bottom = 345.0
+rect_min_size = Vector2( 200, 345 )
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Primaries/TabContainer/Assault Rifles/ScrollContainer"]
-margin_right = 270.0
-margin_bottom = 590.0
-rect_min_size = Vector2( 270, 340 )
-
-[node name="ar1" type="Button" parent="Primaries/TabContainer/Assault Rifles/ScrollContainer/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "AK74"
-
-[node name="ar2" type="Button" parent="Primaries/TabContainer/Assault Rifles/ScrollContainer/VBoxContainer"]
-margin_top = 54.0
-margin_right = 270.0
-margin_bottom = 104.0
-rect_min_size = Vector2( 270, 50 )
-text = "AKM"
-
-[node name="ar3" type="Button" parent="Primaries/TabContainer/Assault Rifles/ScrollContainer/VBoxContainer"]
-margin_top = 108.0
-margin_right = 270.0
-margin_bottom = 158.0
-rect_min_size = Vector2( 270, 50 )
-text = "BAR"
-
-[node name="ar4" type="Button" parent="Primaries/TabContainer/Assault Rifles/ScrollContainer/VBoxContainer"]
-margin_top = 162.0
-margin_right = 270.0
-margin_bottom = 212.0
-rect_min_size = Vector2( 270, 50 )
-text = "FAL"
-
-[node name="ar5" type="Button" parent="Primaries/TabContainer/Assault Rifles/ScrollContainer/VBoxContainer"]
-margin_top = 216.0
-margin_right = 270.0
-margin_bottom = 266.0
-rect_min_size = Vector2( 270, 50 )
-text = "FAMAS F1"
-
-[node name="ar6" type="Button" parent="Primaries/TabContainer/Assault Rifles/ScrollContainer/VBoxContainer"]
-margin_top = 270.0
-margin_right = 270.0
-margin_bottom = 320.0
-rect_min_size = Vector2( 270, 50 )
-text = "G3"
-
-[node name="ar7" type="Button" parent="Primaries/TabContainer/Assault Rifles/ScrollContainer/VBoxContainer"]
-margin_top = 324.0
-margin_right = 270.0
-margin_bottom = 374.0
-rect_min_size = Vector2( 270, 50 )
-text = "G38C"
-
-[node name="ar8" type="Button" parent="Primaries/TabContainer/Assault Rifles/ScrollContainer/VBoxContainer"]
-margin_top = 378.0
-margin_right = 270.0
-margin_bottom = 428.0
-rect_min_size = Vector2( 270, 50 )
-text = "L85A2"
-
-[node name="ar9" type="Button" parent="Primaries/TabContainer/Assault Rifles/ScrollContainer/VBoxContainer"]
-margin_top = 432.0
-margin_right = 270.0
-margin_bottom = 482.0
-rect_min_size = Vector2( 270, 50 )
-text = "M4A1"
-
-[node name="ar10" type="Button" parent="Primaries/TabContainer/Assault Rifles/ScrollContainer/VBoxContainer"]
-margin_top = 486.0
-margin_right = 270.0
-margin_bottom = 536.0
-rect_min_size = Vector2( 270, 50 )
-text = "SCAR-H"
-
-[node name="ar11" type="Button" parent="Primaries/TabContainer/Assault Rifles/ScrollContainer/VBoxContainer"]
-margin_top = 540.0
-margin_right = 270.0
-margin_bottom = 590.0
-rect_min_size = Vector2( 270, 50 )
-text = "STG 44"
+margin_right = 200.0
+margin_bottom = 345.0
+rect_min_size = Vector2( 200, 345 )
+script = ExtResource( 12 )
 
 [node name="SMGs" type="Tabs" parent="Primaries/TabContainer"]
 visible = false
@@ -534,98 +475,9 @@ rect_min_size = Vector2( 270, 340 )
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Primaries/TabContainer/SMGs/ScrollContainer2"]
 margin_right = 270.0
-margin_bottom = 698.0
+margin_bottom = 340.0
 rect_min_size = Vector2( 270, 340 )
-
-[node name="smg1" type="Button" parent="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "AKS-74U"
-
-[node name="smg2" type="Button" parent="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer"]
-margin_top = 54.0
-margin_right = 270.0
-margin_bottom = 104.0
-rect_min_size = Vector2( 270, 50 )
-text = "M1A1"
-
-[node name="smg3" type="Button" parent="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer"]
-margin_top = 108.0
-margin_right = 270.0
-margin_bottom = 158.0
-rect_min_size = Vector2( 270, 50 )
-text = "M3 Grease"
-
-[node name="smg4" type="Button" parent="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer"]
-margin_top = 162.0
-margin_right = 270.0
-margin_bottom = 212.0
-rect_min_size = Vector2( 270, 50 )
-text = "MAC 10"
-
-[node name="smg5" type="Button" parent="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer"]
-margin_top = 216.0
-margin_right = 270.0
-margin_bottom = 266.0
-rect_min_size = Vector2( 270, 50 )
-text = "MP5"
-
-[node name="smg6" type="Button" parent="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer"]
-margin_top = 270.0
-margin_right = 270.0
-margin_bottom = 320.0
-rect_min_size = Vector2( 270, 50 )
-text = "MP7"
-
-[node name="smg7" type="Button" parent="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer"]
-margin_top = 324.0
-margin_right = 270.0
-margin_bottom = 374.0
-rect_min_size = Vector2( 270, 50 )
-text = "MP 40"
-
-[node name="smg8" type="Button" parent="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer"]
-margin_top = 378.0
-margin_right = 270.0
-margin_bottom = 428.0
-rect_min_size = Vector2( 270, 50 )
-text = "P90"
-
-[node name="smg9" type="Button" parent="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer"]
-margin_top = 432.0
-margin_right = 270.0
-margin_bottom = 482.0
-rect_min_size = Vector2( 270, 50 )
-text = "PPSH 41"
-
-[node name="smg10" type="Button" parent="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer"]
-margin_top = 486.0
-margin_right = 270.0
-margin_bottom = 536.0
-rect_min_size = Vector2( 270, 50 )
-text = "SG552"
-
-[node name="smg11" type="Button" parent="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer"]
-margin_top = 540.0
-margin_right = 270.0
-margin_bottom = 590.0
-rect_min_size = Vector2( 270, 50 )
-text = "Sten"
-
-[node name="smg12" type="Button" parent="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer"]
-margin_top = 594.0
-margin_right = 270.0
-margin_bottom = 644.0
-rect_min_size = Vector2( 270, 50 )
-text = "Uzi"
-
-[node name="smg13" type="Button" parent="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer"]
-margin_top = 648.0
-margin_right = 270.0
-margin_bottom = 698.0
-rect_min_size = Vector2( 270, 50 )
-text = "Vector"
+script = ExtResource( 22 )
 
 [node name="LMGs" type="Tabs" parent="Primaries/TabContainer"]
 visible = false
@@ -636,57 +488,16 @@ margin_top = 32.0
 margin_right = -4.0
 margin_bottom = -4.0
 
-[node name="ScrollContainer3" type="ScrollContainer" parent="Primaries/TabContainer/LMGs"]
+[node name="ScrollContainer4" type="ScrollContainer" parent="Primaries/TabContainer/LMGs"]
 margin_right = 270.0
 margin_bottom = 340.0
 rect_min_size = Vector2( 270, 340 )
 
-[node name="VBoxContainer" type="VBoxContainer" parent="Primaries/TabContainer/LMGs/ScrollContainer3"]
+[node name="VBoxContainer" type="VBoxContainer" parent="Primaries/TabContainer/LMGs/ScrollContainer4"]
 margin_right = 270.0
-margin_bottom = 374.0
+margin_bottom = 340.0
 rect_min_size = Vector2( 270, 340 )
-
-[node name="lmg1" type="Button" parent="Primaries/TabContainer/LMGs/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "Bren"
-
-[node name="lmg2" type="Button" parent="Primaries/TabContainer/LMGs/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "DP 28"
-
-[node name="lmg3" type="Button" parent="Primaries/TabContainer/LMGs/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "FG 42"
-
-[node name="lmg4" type="Button" parent="Primaries/TabContainer/LMGs/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "M60"
-
-[node name="lmg5" type="Button" parent="Primaries/TabContainer/LMGs/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "M249"
-
-[node name="lmg6" type="Button" parent="Primaries/TabContainer/LMGs/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "MG 42"
-
-[node name="lmg7" type="Button" parent="Primaries/TabContainer/LMGs/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "PKM"
+script = ExtResource( 24 )
 
 [node name="Shotguns" type="Tabs" parent="Primaries/TabContainer"]
 visible = false
@@ -704,56 +515,9 @@ rect_min_size = Vector2( 270, 340 )
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Primaries/TabContainer/Shotguns/ScrollContainer3"]
 margin_right = 270.0
-margin_bottom = 428.0
+margin_bottom = 340.0
 rect_min_size = Vector2( 270, 340 )
-
-[node name="sg1" type="Button" parent="Primaries/TabContainer/Shotguns/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "1887"
-
-[node name="sg2" type="Button" parent="Primaries/TabContainer/Shotguns/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "Auto 5"
-
-[node name="sg3" type="Button" parent="Primaries/TabContainer/Shotguns/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "Double Barrel"
-
-[node name="sg4" type="Button" parent="Primaries/TabContainer/Shotguns/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "M37"
-
-[node name="sg5" type="Button" parent="Primaries/TabContainer/Shotguns/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "M590"
-
-[node name="sg6" type="Button" parent="Primaries/TabContainer/Shotguns/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "M1897"
-
-[node name="sg7" type="Button" parent="Primaries/TabContainer/Shotguns/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "Over Under"
-
-[node name="sg8" type="Button" parent="Primaries/TabContainer/Shotguns/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "R870"
+script = ExtResource( 14 )
 
 [node name="Marksman Rifles" type="Tabs" parent="Primaries/TabContainer"]
 visible = false
@@ -771,98 +535,9 @@ rect_min_size = Vector2( 270, 340 )
 
 [node name="VBoxContainer" type="VBoxContainer" parent="Primaries/TabContainer/Marksman Rifles/ScrollContainer3"]
 margin_right = 270.0
-margin_bottom = 806.0
+margin_bottom = 340.0
 rect_min_size = Vector2( 270, 340 )
-
-[node name="mr1" type="Button" parent="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "10-22"
-
-[node name="mr2" type="Button" parent="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "1894"
-
-[node name="mr3" type="Button" parent="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "1895"
-
-[node name="mr4" type="Button" parent="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "Gewehr 43"
-
-[node name="mr5" type="Button" parent="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "M1 Carbine"
-
-[node name="mr6" type="Button" parent="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "M1 Garand"
-
-[node name="mr7" type="Button" parent="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "M14"
-
-[node name="mr8" type="Button" parent="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "M16A4"
-
-[node name="mr9" type="Button" parent="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "M24A2"
-
-[node name="mr10" type="Button" parent="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "Rolling Block"
-
-[node name="mr11" type="Button" parent="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "SKS"
-
-[node name="mr12" type="Button" parent="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "Springfield M1903"
-
-[node name="mr13" type="Button" parent="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "SVD"
-
-[node name="mr14" type="Button" parent="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "SVT 40"
-
-[node name="mr15" type="Button" parent="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "Trapdoor"
+script = ExtResource( 13 )
 
 [node name="Sniper Rifles" type="Tabs" parent="Primaries/TabContainer"]
 visible = false
@@ -882,30 +557,7 @@ rect_min_size = Vector2( 270, 340 )
 margin_right = 270.0
 margin_bottom = 340.0
 rect_min_size = Vector2( 270, 340 )
-
-[node name="sr1" type="Button" parent="Primaries/TabContainer/Sniper Rifles/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "Kar98"
-
-[node name="sr2" type="Button" parent="Primaries/TabContainer/Sniper Rifles/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "L115A3"
-
-[node name="sr3" type="Button" parent="Primaries/TabContainer/Sniper Rifles/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "M82A1"
-
-[node name="sr4" type="Button" parent="Primaries/TabContainer/Sniper Rifles/ScrollContainer3/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "Mosin Nagant"
+script = ExtResource( 16 )
 
 [node name="Secondaries" type="PopupMenu" parent="."]
 anchor_left = 0.5
@@ -939,12 +591,7 @@ rect_min_size = Vector2( 270, 340 )
 margin_right = 270.0
 margin_bottom = 340.0
 rect_min_size = Vector2( 270, 340 )
-
-[node name="smg1" type="Button" parent="Secondaries/TabContainer/Pistols/ScrollContainer2/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "AK74"
+script = ExtResource( 15 )
 
 [node name="Launchers" type="Tabs" parent="Secondaries/TabContainer"]
 visible = false
@@ -964,12 +611,7 @@ rect_min_size = Vector2( 270, 340 )
 margin_right = 270.0
 margin_bottom = 340.0
 rect_min_size = Vector2( 270, 340 )
-
-[node name="smg1" type="Button" parent="Secondaries/TabContainer/Launchers/ScrollContainer2/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "AK74"
+script = ExtResource( 19 )
 
 [node name="Melee" type="Tabs" parent="Secondaries/TabContainer"]
 visible = false
@@ -989,12 +631,7 @@ rect_min_size = Vector2( 270, 340 )
 margin_right = 270.0
 margin_bottom = 340.0
 rect_min_size = Vector2( 270, 340 )
-
-[node name="smg1" type="Button" parent="Secondaries/TabContainer/Melee/ScrollContainer2/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "AK74"
+script = ExtResource( 17 )
 
 [node name="Perks" type="PopupMenu" parent="."]
 anchor_left = 0.5
@@ -1028,12 +665,7 @@ rect_min_size = Vector2( 270, 340 )
 margin_right = 270.0
 margin_bottom = 340.0
 rect_min_size = Vector2( 270, 340 )
-
-[node name="smg1" type="Button" parent="Perks/TabContainer/Perks/ScrollContainer2/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "AK74"
+script = ExtResource( 20 )
 
 [node name="Abilities" type="PopupMenu" parent="."]
 anchor_left = 0.5
@@ -1066,12 +698,7 @@ rect_min_size = Vector2( 270, 340 )
 margin_right = 270.0
 margin_bottom = 340.0
 rect_min_size = Vector2( 270, 340 )
-
-[node name="smg1" type="Button" parent="Abilities/TabContainer/Abilities/ScrollContainer2/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "AK74"
+script = ExtResource( 18 )
 
 [node name="Equipment" type="PopupMenu" parent="."]
 anchor_left = 0.5
@@ -1104,12 +731,7 @@ rect_min_size = Vector2( 270, 340 )
 margin_right = 270.0
 margin_bottom = 340.0
 rect_min_size = Vector2( 270, 340 )
-
-[node name="smg1" type="Button" parent="Equipment/TabContainer/Tactical/ScrollContainer2/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "AK74"
+script = ExtResource( 21 )
 
 [node name="Lethal" type="Tabs" parent="Equipment/TabContainer"]
 visible = false
@@ -1129,12 +751,7 @@ rect_min_size = Vector2( 270, 340 )
 margin_right = 270.0
 margin_bottom = 340.0
 rect_min_size = Vector2( 270, 340 )
-
-[node name="smg1" type="Button" parent="Equipment/TabContainer/Lethal/ScrollContainer2/VBoxContainer"]
-margin_right = 270.0
-margin_bottom = 50.0
-rect_min_size = Vector2( 270, 50 )
-text = "AK74"
+script = ExtResource( 23 )
 
 [connection signal="pressed" from="Loadouts/VBoxContainer/Loadout1" to="." method="_on_Loadout1_pressed"]
 [connection signal="pressed" from="Loadouts/VBoxContainer/Loadout2" to="." method="_on_Loadout2_pressed"]
@@ -1165,61 +782,3 @@ text = "AK74"
 [connection signal="pressed" from="Ability" to="." method="_on_Ability_pressed"]
 [connection signal="pressed" from="Tactical" to="." method="_on_Tactical_pressed"]
 [connection signal="pressed" from="Lethal" to="." method="_on_Lethal_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Assault Rifles/ScrollContainer/VBoxContainer/ar1" to="." method="_on_ar1_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Assault Rifles/ScrollContainer/VBoxContainer/ar2" to="." method="_on_ar2_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Assault Rifles/ScrollContainer/VBoxContainer/ar3" to="." method="_on_ar3_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Assault Rifles/ScrollContainer/VBoxContainer/ar4" to="." method="_on_ar4_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Assault Rifles/ScrollContainer/VBoxContainer/ar5" to="." method="_on_ar5_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Assault Rifles/ScrollContainer/VBoxContainer/ar6" to="." method="_on_ar6_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Assault Rifles/ScrollContainer/VBoxContainer/ar7" to="." method="_on_ar7_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Assault Rifles/ScrollContainer/VBoxContainer/ar8" to="." method="_on_ar8_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Assault Rifles/ScrollContainer/VBoxContainer/ar9" to="." method="_on_ar9_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Assault Rifles/ScrollContainer/VBoxContainer/ar10" to="." method="_on_ar10_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Assault Rifles/ScrollContainer/VBoxContainer/ar11" to="." method="_on_ar11_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer/smg1" to="." method="_on_smg1_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer/smg2" to="." method="_on_smg2_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer/smg3" to="." method="_on_smg3_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer/smg4" to="." method="_on_smg4_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer/smg5" to="." method="_on_smg5_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer/smg6" to="." method="_on_smg6_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer/smg7" to="." method="_on_smg7_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer/smg8" to="." method="_on_smg8_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer/smg9" to="." method="_on_smg9_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer/smg10" to="." method="_on_smg10_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer/smg11" to="." method="_on_smg11_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer/smg12" to="." method="_on_smg12_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/SMGs/ScrollContainer2/VBoxContainer/smg13" to="." method="_on_smg13_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/LMGs/ScrollContainer3/VBoxContainer/lmg1" to="." method="_on_lmg1_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/LMGs/ScrollContainer3/VBoxContainer/lmg2" to="." method="_on_lmg2_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/LMGs/ScrollContainer3/VBoxContainer/lmg3" to="." method="_on_lmg3_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/LMGs/ScrollContainer3/VBoxContainer/lmg4" to="." method="_on_lmg4_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/LMGs/ScrollContainer3/VBoxContainer/lmg5" to="." method="_on_lmg5_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/LMGs/ScrollContainer3/VBoxContainer/lmg6" to="." method="_on_lmg6_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/LMGs/ScrollContainer3/VBoxContainer/lmg7" to="." method="_on_lmg7_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Shotguns/ScrollContainer3/VBoxContainer/sg1" to="." method="_on_sg1_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Shotguns/ScrollContainer3/VBoxContainer/sg2" to="." method="_on_sg2_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Shotguns/ScrollContainer3/VBoxContainer/sg3" to="." method="_on_sg3_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Shotguns/ScrollContainer3/VBoxContainer/sg4" to="." method="_on_sg4_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Shotguns/ScrollContainer3/VBoxContainer/sg5" to="." method="_on_sg5_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Shotguns/ScrollContainer3/VBoxContainer/sg6" to="." method="_on_sg6_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Shotguns/ScrollContainer3/VBoxContainer/sg7" to="." method="_on_sg7_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Shotguns/ScrollContainer3/VBoxContainer/sg8" to="." method="_on_sg8_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer/mr1" to="." method="_on_mr1_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer/mr2" to="." method="_on_mr2_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer/mr3" to="." method="_on_mr3_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer/mr4" to="." method="_on_mr4_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer/mr5" to="." method="_on_mr5_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer/mr6" to="." method="_on_mr6_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer/mr7" to="." method="_on_mr7_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer/mr8" to="." method="_on_mr8_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer/mr9" to="." method="_on_mr9_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer/mr10" to="." method="_on_mr10_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer/mr11" to="." method="_on_mr11_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer/mr12" to="." method="_on_mr12_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer/mr13" to="." method="_on_mr13_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer/mr14" to="." method="_on_mr14_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Marksman Rifles/ScrollContainer3/VBoxContainer/mr15" to="." method="_on_mr15_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Sniper Rifles/ScrollContainer3/VBoxContainer/sr1" to="." method="_on_sr1_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Sniper Rifles/ScrollContainer3/VBoxContainer/sr2" to="." method="_on_sr2_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Sniper Rifles/ScrollContainer3/VBoxContainer/sr3" to="." method="_on_sr3_pressed"]
-[connection signal="pressed" from="Primaries/TabContainer/Sniper Rifles/ScrollContainer3/VBoxContainer/sr4" to="." method="_on_sr4_pressed"]
