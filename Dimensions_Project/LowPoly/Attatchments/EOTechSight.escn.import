@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/EOTechSight.escn-92438f011fd7d7538de687b1679c1bcd.scn"
+path="res://.import/EOTechSight.escn-db2ce77834e635964ce3797b9e8734c7.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/Attatchments/EOTechSight.escn"
-dest_files=[ "res://.import/EOTechSight.escn-92438f011fd7d7538de687b1679c1bcd.scn" ]
+source_file="res://LowPoly/Attatchments/EOTechSight.escn"
+dest_files=[ "res://.import/EOTechSight.escn-db2ce77834e635964ce3797b9e8734c7.scn" ]
 
 [params]
 

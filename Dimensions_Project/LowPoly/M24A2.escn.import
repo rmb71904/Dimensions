@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/M24A2.escn-3fdee64439a2bcefceed532cee73c103.scn"
+path="res://.import/M24A2.escn-d2c806af61cafd9a95bf8ff75149bafa.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/M24A2.escn"
-dest_files=[ "res://.import/M24A2.escn-3fdee64439a2bcefceed532cee73c103.scn" ]
+source_file="res://LowPoly/M24A2.escn"
+dest_files=[ "res://.import/M24A2.escn-d2c806af61cafd9a95bf8ff75149bafa.scn" ]
 
 [params]
 

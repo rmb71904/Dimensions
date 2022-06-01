@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Makarov.escn-7d7d9f8ffc99028ede4c565721f63d0c.scn"
+path="res://.import/Makarov.escn-f275e562f12a303f934b6c019d36433e.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/Makarov.escn"
-dest_files=[ "res://.import/Makarov.escn-7d7d9f8ffc99028ede4c565721f63d0c.scn" ]
+source_file="res://LowPoly/Makarov.escn"
+dest_files=[ "res://.import/Makarov.escn-f275e562f12a303f934b6c019d36433e.scn" ]
 
 [params]
 

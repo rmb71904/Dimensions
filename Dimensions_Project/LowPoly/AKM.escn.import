@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/AKM.escn-de3780d5a4fc1febc433909965ffed22.scn"
+path="res://.import/AKM.escn-0bf658568c31e58a3bc828aa211c92b5.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/AKM.escn"
-dest_files=[ "res://.import/AKM.escn-de3780d5a4fc1febc433909965ffed22.scn" ]
+source_file="res://LowPoly/AKM.escn"
+dest_files=[ "res://.import/AKM.escn-0bf658568c31e58a3bc828aa211c92b5.scn" ]
 
 [params]
 

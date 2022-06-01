@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/FAMAS F1.escn-fb04ca8abb41a99b2b1da654dd9631eb.scn"
+path="res://.import/FAMAS F1.escn-0e6a07603d0820e257c12a7588494de2.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/FAMAS F1.escn"
-dest_files=[ "res://.import/FAMAS F1.escn-fb04ca8abb41a99b2b1da654dd9631eb.scn" ]
+source_file="res://LowPoly/FAMAS F1.escn"
+dest_files=[ "res://.import/FAMAS F1.escn-0e6a07603d0820e257c12a7588494de2.scn" ]
 
 [params]
 

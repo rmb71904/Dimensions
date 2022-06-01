@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Springfield M1903.escn-d086f5cbdf58eb41893f483f4d4060fb.scn"
+path="res://.import/Springfield M1903.escn-53d1fe1d2356887a74fc44d8175eed94.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/Springfield M1903.escn"
-dest_files=[ "res://.import/Springfield M1903.escn-d086f5cbdf58eb41893f483f4d4060fb.scn" ]
+source_file="res://LowPoly/Springfield M1903.escn"
+dest_files=[ "res://.import/Springfield M1903.escn-53d1fe1d2356887a74fc44d8175eed94.scn" ]
 
 [params]
 

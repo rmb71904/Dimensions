@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/P90.escn-c870e41db062159df42587d8d159c4c0.scn"
+path="res://.import/P90.escn-12a39eb1262caf4a9609b532129928fe.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/P90.escn"
-dest_files=[ "res://.import/P90.escn-c870e41db062159df42587d8d159c4c0.scn" ]
+source_file="res://LowPoly/P90.escn"
+dest_files=[ "res://.import/P90.escn-12a39eb1262caf4a9609b532129928fe.scn" ]
 
 [params]
 

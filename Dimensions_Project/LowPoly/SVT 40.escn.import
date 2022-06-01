@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/SVT 40.escn-67c4f9d0279a65ab77edb9b590b58f72.scn"
+path="res://.import/SVT 40.escn-22246a234ec44b7b7e9af5289bf0de60.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/SVT 40.escn"
-dest_files=[ "res://.import/SVT 40.escn-67c4f9d0279a65ab77edb9b590b58f72.scn" ]
+source_file="res://LowPoly/SVT 40.escn"
+dest_files=[ "res://.import/SVT 40.escn-22246a234ec44b7b7e9af5289bf0de60.scn" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Red_Dot_Sight.escn-03c70e5318d8d7040453b27da4f73846.scn"
+path="res://.import/Red_Dot_Sight.escn-de3a6d01b5e0cc76a6e73bcd06ae5bab.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/Attatchments/Red_Dot_Sight.escn"
-dest_files=[ "res://.import/Red_Dot_Sight.escn-03c70e5318d8d7040453b27da4f73846.scn" ]
+source_file="res://LowPoly/Attatchments/Red_Dot_Sight.escn"
+dest_files=[ "res://.import/Red_Dot_Sight.escn-de3a6d01b5e0cc76a6e73bcd06ae5bab.scn" ]
 
 [params]
 

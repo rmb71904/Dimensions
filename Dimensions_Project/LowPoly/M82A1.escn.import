@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/M82A1.escn-0020139c0cc79a9ff8efd76ccc9a7c70.scn"
+path="res://.import/M82A1.escn-ff239f9bb359d71e3ae07a0abc59df9a.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/M82A1.escn"
-dest_files=[ "res://.import/M82A1.escn-0020139c0cc79a9ff8efd76ccc9a7c70.scn" ]
+source_file="res://LowPoly/M82A1.escn"
+dest_files=[ "res://.import/M82A1.escn-ff239f9bb359d71e3ae07a0abc59df9a.scn" ]
 
 [params]
 

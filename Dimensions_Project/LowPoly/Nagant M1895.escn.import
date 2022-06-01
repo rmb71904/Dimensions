@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Nagant M1895.escn-0bfbdd7d67351b608a4e3cad1207e648.scn"
+path="res://.import/Nagant M1895.escn-7d90bbc51772b3d76c5d4aa50ad1ec4b.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/Nagant M1895.escn"
-dest_files=[ "res://.import/Nagant M1895.escn-0bfbdd7d67351b608a4e3cad1207e648.scn" ]
+source_file="res://LowPoly/Nagant M1895.escn"
+dest_files=[ "res://.import/Nagant M1895.escn-7d90bbc51772b3d76c5d4aa50ad1ec4b.scn" ]
 
 [params]
 

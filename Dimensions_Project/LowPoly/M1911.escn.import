@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/M1911.escn-4593cadd17735122a0084accc574c2ea.scn"
+path="res://.import/M1911.escn-dfe4946eae4e82a8bb8875aa24775853.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/M1911.escn"
-dest_files=[ "res://.import/M1911.escn-4593cadd17735122a0084accc574c2ea.scn" ]
+source_file="res://LowPoly/M1911.escn"
+dest_files=[ "res://.import/M1911.escn-dfe4946eae4e82a8bb8875aa24775853.scn" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/PPSH 41.escn-66107c9d8ae7660c9bf37915535492d4.scn"
+path="res://.import/PPSH 41.escn-6cc0e444686b7432bda03a73affc0098.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/PPSH 41.escn"
-dest_files=[ "res://.import/PPSH 41.escn-66107c9d8ae7660c9bf37915535492d4.scn" ]
+source_file="res://LowPoly/PPSH 41.escn"
+dest_files=[ "res://.import/PPSH 41.escn-6cc0e444686b7432bda03a73affc0098.scn" ]
 
 [params]
 

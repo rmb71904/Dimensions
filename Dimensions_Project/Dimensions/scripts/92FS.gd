@@ -10,6 +10,18 @@ onready var player = hand.get_parent().get_parent().get_parent()
 export var mag_size = 20
 export var max_mag_size = 20
 export var weapon_damage = 20
+export var supply_size = 40
+export var max_supply_size = 40
+
+export var sway_left: Vector3
+export var sway_right: Vector3
+export var sway_down: Vector3
+export var sway_up: Vector3
+export var sway_normal: Vector3
+export var sway_threshold = 5
+export var sway_lerp = 5
+var mouse_mov_x: int
+var mouse_mov_z: int
 
 func _process(_delta):
 	if self.visible == true and mag_size > 0:
@@ -17,10 +29,23 @@ func _process(_delta):
 
 
 func _input(event): # Events only fire once
-	if event.is_action_pressed("reload") and mag_size < max_mag_size:
-		mag_size = max_mag_size
+	if event is InputEventMouseMotion:
+		mouse_mov_x = -event.relative.x
+		mouse_mov_z = -event.relative.y
+	if event.is_action_pressed("reload") and supply_size > 0 and not anim.is_playing():
+		var refill = max_mag_size - mag_size
+		if supply_size < refill:
+			mag_size = mag_size + supply_size
+			supply_size = 0
+		else:
+			mag_size = max_mag_size
+			supply_size = supply_size - refill
+		anim.play("reload")
 		print('Reloaded')
-
+	if event.is_action_pressed("reload") and supply_size <= 0:
+		Hud.get_node("mag").set("custom_colors/font_color", Color(1,0,0))
+	else:
+		Hud.get_node("mag").set("custom_colors/font_color", Color(1,1,1))
 func shoot():
 	if Input.is_action_pressed("fire"):
 		if not anim.is_playing():

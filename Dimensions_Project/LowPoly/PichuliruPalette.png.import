@@ -2,8 +2,8 @@
 
 importer="texture"
 type="StreamTexture"
-path.s3tc="res://.import/PichuliruPalette.png-0be8f5b1c23d12d2c87acff111a60537.s3tc.stex"
-path.etc2="res://.import/PichuliruPalette.png-0be8f5b1c23d12d2c87acff111a60537.etc2.stex"
+path.s3tc="res://.import/PichuliruPalette.png-e1c70f187c669f8c0efb23b88edff453.s3tc.stex"
+path.etc2="res://.import/PichuliruPalette.png-e1c70f187c669f8c0efb23b88edff453.etc2.stex"
 metadata={
 "imported_formats": [ "s3tc", "etc2" ],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/PichuliruPalette.png"
-dest_files=[ "res://.import/PichuliruPalette.png-0be8f5b1c23d12d2c87acff111a60537.s3tc.stex", "res://.import/PichuliruPalette.png-0be8f5b1c23d12d2c87acff111a60537.etc2.stex" ]
+source_file="res://LowPoly/PichuliruPalette.png"
+dest_files=[ "res://.import/PichuliruPalette.png-e1c70f187c669f8c0efb23b88edff453.s3tc.stex", "res://.import/PichuliruPalette.png-e1c70f187c669f8c0efb23b88edff453.etc2.stex" ]
 
 [params]
 

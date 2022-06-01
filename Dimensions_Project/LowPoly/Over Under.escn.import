@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Over Under.escn-82176913a21c856d4dab4873adfa09ac.scn"
+path="res://.import/Over Under.escn-813cc6ef15d42798a7d0ffb1a95894b0.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/Over Under.escn"
-dest_files=[ "res://.import/Over Under.escn-82176913a21c856d4dab4873adfa09ac.scn" ]
+source_file="res://LowPoly/Over Under.escn"
+dest_files=[ "res://.import/Over Under.escn-813cc6ef15d42798a7d0ffb1a95894b0.scn" ]
 
 [params]
 

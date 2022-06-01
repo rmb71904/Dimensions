@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/M3 Grease.escn-a7d3c8327d7e4242c744949c4ede363f.scn"
+path="res://.import/M3 Grease.escn-5f310440865cce3884b046ea84b23858.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/M3 Grease.escn"
-dest_files=[ "res://.import/M3 Grease.escn-a7d3c8327d7e4242c744949c4ede363f.scn" ]
+source_file="res://LowPoly/M3 Grease.escn"
+dest_files=[ "res://.import/M3 Grease.escn-5f310440865cce3884b046ea84b23858.scn" ]
 
 [params]
 

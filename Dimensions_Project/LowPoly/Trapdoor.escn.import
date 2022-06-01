@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Trapdoor.escn-a39f4de5bb1caacfba38c18c60fddbab.scn"
+path="res://.import/Trapdoor.escn-a05794d7513a22edd70a7e4a0c69279e.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/Trapdoor.escn"
-dest_files=[ "res://.import/Trapdoor.escn-a39f4de5bb1caacfba38c18c60fddbab.scn" ]
+source_file="res://LowPoly/Trapdoor.escn"
+dest_files=[ "res://.import/Trapdoor.escn-a05794d7513a22edd70a7e4a0c69279e.scn" ]
 
 [params]
 

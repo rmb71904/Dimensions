@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/FAL.escn-e4f545146c9583d9df138a19cec9095a.scn"
+path="res://.import/FAL.escn-21160571a639a1f5af42b77fd6c4ab64.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/FAL.escn"
-dest_files=[ "res://.import/FAL.escn-e4f545146c9583d9df138a19cec9095a.scn" ]
+source_file="res://LowPoly/FAL.escn"
+dest_files=[ "res://.import/FAL.escn-21160571a639a1f5af42b77fd6c4ab64.scn" ]
 
 [params]
 

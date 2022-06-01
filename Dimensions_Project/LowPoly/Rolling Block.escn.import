@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Rolling Block.escn-67c529c1470504ca91f10f76f065990b.scn"
+path="res://.import/Rolling Block.escn-98d5295e19306135fe0330ec65d07ee2.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/Rolling Block.escn"
-dest_files=[ "res://.import/Rolling Block.escn-67c529c1470504ca91f10f76f065990b.scn" ]
+source_file="res://LowPoly/Rolling Block.escn"
+dest_files=[ "res://.import/Rolling Block.escn-98d5295e19306135fe0330ec65d07ee2.scn" ]
 
 [params]
 

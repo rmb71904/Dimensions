@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Silencer_Rectangle.escn-3c8f4be6988ce38213c64d4e821dab5f.scn"
+path="res://.import/Silencer_Rectangle.escn-21787310e2702edca3525af6119e5a13.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/Attatchments/Silencer_Rectangle.escn"
-dest_files=[ "res://.import/Silencer_Rectangle.escn-3c8f4be6988ce38213c64d4e821dab5f.scn" ]
+source_file="res://LowPoly/Attatchments/Silencer_Rectangle.escn"
+dest_files=[ "res://.import/Silencer_Rectangle.escn-21787310e2702edca3525af6119e5a13.scn" ]
 
 [params]
 

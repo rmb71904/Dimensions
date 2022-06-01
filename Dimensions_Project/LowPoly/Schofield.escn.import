@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Schofield.escn-71283a64e6c89797b53692ae024028b0.scn"
+path="res://.import/Schofield.escn-9566ab0c1517c9703fb67849aced7028.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/Schofield.escn"
-dest_files=[ "res://.import/Schofield.escn-71283a64e6c89797b53692ae024028b0.scn" ]
+source_file="res://LowPoly/Schofield.escn"
+dest_files=[ "res://.import/Schofield.escn-9566ab0c1517c9703fb67849aced7028.scn" ]
 
 [params]
 

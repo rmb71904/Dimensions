@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Silencer_Fat.escn-7c2e773c7fd576598b468c8899d4faf9.scn"
+path="res://.import/Silencer_Fat.escn-fac25bbdaeaf050803e12a3c50d82b03.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/Attatchments/Silencer_Fat.escn"
-dest_files=[ "res://.import/Silencer_Fat.escn-7c2e773c7fd576598b468c8899d4faf9.scn" ]
+source_file="res://LowPoly/Attatchments/Silencer_Fat.escn"
+dest_files=[ "res://.import/Silencer_Fat.escn-fac25bbdaeaf050803e12a3c50d82b03.scn" ]
 
 [params]
 

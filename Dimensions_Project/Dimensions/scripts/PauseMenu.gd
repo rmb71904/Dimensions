@@ -24,5 +24,5 @@ func _on_Button2_pressed():
 func _on_Main_Menu_pressed():
 	get_tree().change_scene("res://menus/main_menu.tscn")
 	self.is_paused = false
-
-
+	Hud.get_child(0).hide()
+	Hud.get_child(1).hide()

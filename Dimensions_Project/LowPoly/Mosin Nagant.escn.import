@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Mosin Nagant.escn-0c06bbaa094b4e116811cda81f813ebc.scn"
+path="res://.import/Mosin Nagant.escn-b7477d347f14a6e8ff59e3b41359d446.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/Mosin Nagant.escn"
-dest_files=[ "res://.import/Mosin Nagant.escn-0c06bbaa094b4e116811cda81f813ebc.scn" ]
+source_file="res://LowPoly/Mosin Nagant.escn"
+dest_files=[ "res://.import/Mosin Nagant.escn-b7477d347f14a6e8ff59e3b41359d446.scn" ]
 
 [params]
 

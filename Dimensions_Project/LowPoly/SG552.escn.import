@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/SG552.escn-0c9479bd8f60121d505126c7e4033c41.scn"
+path="res://.import/SG552.escn-7715bd405b3a726473457204c74f34f0.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/SG552.escn"
-dest_files=[ "res://.import/SG552.escn-0c9479bd8f60121d505126c7e4033c41.scn" ]
+source_file="res://LowPoly/SG552.escn"
+dest_files=[ "res://.import/SG552.escn-7715bd405b3a726473457204c74f34f0.scn" ]
 
 [params]
 

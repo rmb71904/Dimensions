@@ -1,4 +1,4 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://scripts/akgun.gd" type="Script" id=1]
 [ext_resource path="res://LowPoly/AK74.escn" type="PackedScene" id=2]
@@ -41,11 +41,71 @@ tracks/2/keys = {
 "update": 0,
 "values": [ Vector3( 1, 1, 1 ) ]
 }
+tracks/3/type = "value"
+tracks/3/path = NodePath("AK74Rig/AK74003:translation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ) ]
+}
+tracks/4/type = "value"
+tracks/4/path = NodePath("AK74Rig:translation")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ) ]
+}
+tracks/5/type = "value"
+tracks/5/path = NodePath("AK74Rig:rotation_degrees")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ) ]
+}
+tracks/6/type = "value"
+tracks/6/path = NodePath("AK74Rig/AK74004:translation")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ) ]
+}
+tracks/7/type = "value"
+tracks/7/path = NodePath("AK74Rig/AK74004:rotation_degrees")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ) ]
+}
 
 [sub_resource type="Animation" id=2]
 resource_name = "recoil"
 length = 0.3
-step = 0.025
+step = 0.01
 tracks/0/type = "value"
 tracks/0/path = NodePath(".:translation")
 tracks/0/interp = 1
@@ -53,7 +113,7 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 0.1, 0.3 ),
+"times": PoolRealArray( 0, 0.07, 0.3 ),
 "transitions": PoolRealArray( 1, 1, 1 ),
 "update": 0,
 "values": [ Vector3( 0, 0, 0 ), Vector3( -0.07, 0, 0 ), Vector3( 0, 0, 0 ) ]
@@ -65,10 +125,10 @@ tracks/1/loop_wrap = true
 tracks/1/imported = false
 tracks/1/enabled = true
 tracks/1/keys = {
-"times": PoolRealArray( 0, 0.1, 0.3 ),
-"transitions": PoolRealArray( 1, 1, 1 ),
+"times": PoolRealArray( 0, 0.01, 0.04, 0.18, 0.3 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1 ),
 "update": 0,
-"values": [ Vector3( 0, 0, 0 ), Vector3( 0, 0, 0 ), Vector3( 0, 0, 0 ) ]
+"values": [ Vector3( 0, 0, 0 ), Vector3( 2.107, 0, 1.44 ), Vector3( -1.054, 0, 0.72 ), Vector3( 0, 0, -0.5 ), Vector3( 0, 0, 0 ) ]
 }
 tracks/2/type = "value"
 tracks/2/path = NodePath(".:scale")
@@ -82,20 +142,105 @@ tracks/2/keys = {
 "update": 0,
 "values": [ Vector3( 1, 1, 1 ), Vector3( 1, 1, 1 ), Vector3( 1, 1, 1 ) ]
 }
+tracks/3/type = "value"
+tracks/3/path = NodePath("AK74Rig/AK74003:translation")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.05, 0.1 ),
+"transitions": PoolRealArray( 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( -1.20743, 0, 0 ), Vector3( 0, 0, 0 ) ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "reload"
+step = 0.01
+tracks/0/type = "value"
+tracks/0/path = NodePath("AK74Rig:translation")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 0.08, 0.27, 0.38, 0.69, 0.78, 0.92, 1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, 0.0608446, 0.0252558 ), Vector3( 0, 0.0608446, 0.0252558 ), Vector3( 0, 0.0608446, 0.0252558 ), Vector3( 0, 0.0608446, 0.0252558 ), Vector3( 0, 0.0608446, 0.0252558 ), Vector3( 0, 0.0608446, 0.0252558 ), Vector3( 0, 0, 0 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("AK74Rig:rotation_degrees")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0, 0.08, 0.27, 0.38, 0.69, 0.78, 0.92, 1 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, 0, 0 ), Vector3( 11.38, 0, 0 ), Vector3( 10.8391, 3.48781, 17.958 ), Vector3( 10.8391, 3.48781, 17.958 ), Vector3( 11.38, 0, 0 ), Vector3( 0, 0, 0 ), Vector3( 0, 0, 0 ) ]
+}
+tracks/2/type = "value"
+tracks/2/path = NodePath("AK74Rig/AK74004:translation")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/keys = {
+"times": PoolRealArray( 0, 0.38, 0.47, 0.56, 0.64, 0.69 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, 0, 0 ), Vector3( -0.0199343, -0.428787, 0.0863028 ), Vector3( 0.0490126, -2.15839, 0.434425 ), Vector3( -0.0199343, -0.428787, 0.0863028 ), Vector3( 0, 0, 0 ) ]
+}
+tracks/3/type = "value"
+tracks/3/path = NodePath("AK74Rig/AK74004:rotation_degrees")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/keys = {
+"times": PoolRealArray( 0, 0.38, 0.47, 0.56, 0.64, 0.69 ),
+"transitions": PoolRealArray( 1, 1, 1, 1, 1, 1 ),
+"update": 0,
+"values": [ Vector3( 0, 0, 0 ), Vector3( 0, 0, 0 ), Vector3( -1.10392, 4.92545, 25.251 ), Vector3( -1.10392, 4.92545, 25.251 ), Vector3( -1.10392, 4.92545, 25.251 ), Vector3( 0, 0, 0 ) ]
+}
 
 [node name="AK-74" instance=ExtResource( 2 )]
 script = ExtResource( 1 )
+sway_left = Vector3( 0, 0.03, 0 )
+sway_right = Vector3( 0, -0.03, 0 )
+sway_down = Vector3( 0, 0, 0.03 )
+sway_up = Vector3( 0, 0, -0.03 )
+sway_threshold = 3
 
 [node name="AK74Rig" parent="." index="0"]
 transform = Transform( 0.1, 0, 0, 0, 0.1, 0, 0, 0, 0.1, 0, 0, 0 )
 
+[node name="AK74001" parent="AK74Rig" index="1"]
+transform = Transform( 10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0 )
+
 [node name="AK74002" parent="AK74Rig" index="2"]
+transform = Transform( 9.99915, 0.130721, 0, -0.130721, 9.99915, 0, 0, 0, 10, 0, 0, 0 )
+
+[node name="AK74003" parent="AK74Rig" index="3"]
+transform = Transform( 10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0 )
+
+[node name="AK74004" parent="AK74Rig" index="4"]
+transform = Transform( 10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0 )
+
+[node name="AK74005" parent="AK74Rig" index="5"]
+transform = Transform( 10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0 )
+
+[node name="AK74006" parent="AK74Rig" index="6"]
 transform = Transform( 10, 0, 0, 0, 10, 0, 0, 0, 10, 0, 0, 0 )
 
 [node name="anim" type="AnimationPlayer" parent="." index="1"]
-playback_speed = 5.0
+playback_speed = 2.0
 anims/RESET = SubResource( 1 )
 anims/recoil = SubResource( 2 )
+anims/reload = SubResource( 3 )
 
 [node name="aimcast" type="RayCast" parent="." index="2"]
 transform = Transform( -4.37114e-09, 0, -1, 0, 0.1, 0, 0.1, 0, -4.37114e-08, 0.138, 0.022, 0 )

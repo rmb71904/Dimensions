@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/G38C.escn-2e34c0c256a728c00dc92c85d7a729d6.scn"
+path="res://.import/G38C.escn-49b80683c588a483947e1a9c3e7592bf.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/G38C.escn"
-dest_files=[ "res://.import/G38C.escn-2e34c0c256a728c00dc92c85d7a729d6.scn" ]
+source_file="res://LowPoly/G38C.escn"
+dest_files=[ "res://.import/G38C.escn-49b80683c588a483947e1a9c3e7592bf.scn" ]
 
 [params]
 

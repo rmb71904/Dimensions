@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/2xRedDotOptic.escn-4708e833bccf4c3bfed7adda1d520990.scn"
+path="res://.import/2xRedDotOptic.escn-85bf8645a88b676996262b51e8fe3fbf.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/Attatchments/2xRedDotOptic.escn"
-dest_files=[ "res://.import/2xRedDotOptic.escn-4708e833bccf4c3bfed7adda1d520990.scn" ]
+source_file="res://LowPoly/Attatchments/2xRedDotOptic.escn"
+dest_files=[ "res://.import/2xRedDotOptic.escn-85bf8645a88b676996262b51e8fe3fbf.scn" ]
 
 [params]
 

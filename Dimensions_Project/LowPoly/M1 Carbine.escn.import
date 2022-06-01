@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/M1 Carbine.escn-23270af7b63095dfa3aae34b38da95f4.scn"
+path="res://.import/M1 Carbine.escn-3fcb8440ce5c759db208b4e3238eb318.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/M1 Carbine.escn"
-dest_files=[ "res://.import/M1 Carbine.escn-23270af7b63095dfa3aae34b38da95f4.scn" ]
+source_file="res://LowPoly/M1 Carbine.escn"
+dest_files=[ "res://.import/M1 Carbine.escn-3fcb8440ce5c759db208b4e3238eb318.scn" ]
 
 [params]
 

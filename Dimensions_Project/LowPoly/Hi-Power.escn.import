@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Hi-Power.escn-4010f35717802593ca5bcec8af37ccb5.scn"
+path="res://.import/Hi-Power.escn-df3c3f704b30276a280bb6fc22e2e9a4.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/Hi-Power.escn"
-dest_files=[ "res://.import/Hi-Power.escn-4010f35717802593ca5bcec8af37ccb5.scn" ]
+source_file="res://LowPoly/Hi-Power.escn"
+dest_files=[ "res://.import/Hi-Power.escn-df3c3f704b30276a280bb6fc22e2e9a4.scn" ]
 
 [params]
 

@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Bren.escn-d9c0b1bc42426c47ec0ec65f49ac7008.scn"
+path="res://.import/Bren.escn-511e9dd0de3073f8228f018bed69de2b.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/Bren.escn"
-dest_files=[ "res://.import/Bren.escn-d9c0b1bc42426c47ec0ec65f49ac7008.scn" ]
+source_file="res://LowPoly/Bren.escn"
+dest_files=[ "res://.import/Bren.escn-511e9dd0de3073f8228f018bed69de2b.scn" ]
 
 [params]
 

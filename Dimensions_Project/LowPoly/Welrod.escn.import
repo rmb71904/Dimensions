@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Welrod.escn-13b1225c5881b6295b0be611eb8bcd6f.scn"
+path="res://.import/Welrod.escn-9d2d4ba68dbd193462b5201b62522055.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/Welrod.escn"
-dest_files=[ "res://.import/Welrod.escn-13b1225c5881b6295b0be611eb8bcd6f.scn" ]
+source_file="res://LowPoly/Welrod.escn"
+dest_files=[ "res://.import/Welrod.escn-9d2d4ba68dbd193462b5201b62522055.scn" ]
 
 [params]
 

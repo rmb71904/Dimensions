@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Webley MKIV.escn-f1469f8b5c2120d81f4fa17c36fdca78.scn"
+path="res://.import/Webley MKIV.escn-a0014f9d1c11fae4e58a31fdd931d757.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/Webley MKIV.escn"
-dest_files=[ "res://.import/Webley MKIV.escn-f1469f8b5c2120d81f4fa17c36fdca78.scn" ]
+source_file="res://LowPoly/Webley MKIV.escn"
+dest_files=[ "res://.import/Webley MKIV.escn-a0014f9d1c11fae4e58a31fdd931d757.scn" ]
 
 [params]
 

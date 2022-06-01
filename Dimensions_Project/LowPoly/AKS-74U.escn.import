@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/AKS-74U.escn-f460a31b80989a1c7d010f211d8cf50e.scn"
+path="res://.import/AKS-74U.escn-57f58e6fbe84f9fd73c5c6c98eda044b.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/AKS-74U.escn"
-dest_files=[ "res://.import/AKS-74U.escn-f460a31b80989a1c7d010f211d8cf50e.scn" ]
+source_file="res://LowPoly/AKS-74U.escn"
+dest_files=[ "res://.import/AKS-74U.escn-57f58e6fbe84f9fd73c5c6c98eda044b.scn" ]
 
 [params]
 

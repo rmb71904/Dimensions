@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Gewehr 43.escn-949a657e66a7ff6ec20cac85f411b8cc.scn"
+path="res://.import/Gewehr 43.escn-57710160f2f3a45ab944f892d08dcc22.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/Gewehr 43.escn"
-dest_files=[ "res://.import/Gewehr 43.escn-949a657e66a7ff6ec20cac85f411b8cc.scn" ]
+source_file="res://LowPoly/Gewehr 43.escn"
+dest_files=[ "res://.import/Gewehr 43.escn-57710160f2f3a45ab944f892d08dcc22.scn" ]
 
 [params]
 

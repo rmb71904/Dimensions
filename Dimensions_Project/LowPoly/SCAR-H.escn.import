@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/SCAR-H.escn-7e9d445888e827cc77dea5b94008a507.scn"
+path="res://.import/SCAR-H.escn-e8f2f295d89e3b8f769812d005b5d9f5.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/SCAR-H.escn"
-dest_files=[ "res://.import/SCAR-H.escn-7e9d445888e827cc77dea5b94008a507.scn" ]
+source_file="res://LowPoly/SCAR-H.escn"
+dest_files=[ "res://.import/SCAR-H.escn-e8f2f295d89e3b8f769812d005b5d9f5.scn" ]
 
 [params]
 

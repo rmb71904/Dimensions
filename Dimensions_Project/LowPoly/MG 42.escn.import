@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/MG 42.escn-c7c9f1a6f8ad6ce047f73919344fa5b1.scn"
+path="res://.import/MG 42.escn-0ddb46d7d5164b7b682a3086752442e3.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/MG 42.escn"
-dest_files=[ "res://.import/MG 42.escn-c7c9f1a6f8ad6ce047f73919344fa5b1.scn" ]
+source_file="res://LowPoly/MG 42.escn"
+dest_files=[ "res://.import/MG 42.escn-0ddb46d7d5164b7b682a3086752442e3.scn" ]
 
 [params]
 

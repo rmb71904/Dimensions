@@ -2,12 +2,12 @@
 
 importer="scene"
 type="PackedScene"
-path="res://.import/Kar 98K.escn-0bb917929265df6a2bf89e315b3d5193.scn"
+path="res://.import/Kar 98K.escn-269f7dfc310805bc9c78f80fcfbaed6e.scn"
 
 [deps]
 
-source_file="res://assets/Models/Blender/Weapons/Usable/LowPoly/Kar 98K.escn"
-dest_files=[ "res://.import/Kar 98K.escn-0bb917929265df6a2bf89e315b3d5193.scn" ]
+source_file="res://LowPoly/Kar 98K.escn"
+dest_files=[ "res://.import/Kar 98K.escn-269f7dfc310805bc9c78f80fcfbaed6e.scn" ]
 
 [params]
 
